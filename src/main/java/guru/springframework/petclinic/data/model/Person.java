@@ -2,7 +2,6 @@ package guru.springframework.petclinic.data.model;
 
 public class Person extends  BaseEntity{
 
-    private Long id;
 
     private String firstName;
     private String lastName;
@@ -23,12 +22,5 @@ public class Person extends  BaseEntity{
         this.lastName = lastName;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
 }
