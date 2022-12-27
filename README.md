@@ -7,4 +7,4 @@ Used Spring MVC, Spring Data JPA
 
 Added both an in memory hashmap and a h2 detabase implementation.
 
-Used project lombok to generate getters, setters and to log eliminating some boilerplate code
+Used project lombok to generate getters, setters, create the equalas and hascode methods, eliminating some boilerplate code
