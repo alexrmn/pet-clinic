@@ -73,6 +73,7 @@
 			<version>${webjars-font-awesome.version}</version>
 		</dependency>
 		<!-- end of webjars -->
+
 	</dependencies>
 
 	<build>
@@ -89,6 +90,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 
