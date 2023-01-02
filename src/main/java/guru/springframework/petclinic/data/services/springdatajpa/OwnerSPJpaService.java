@@ -60,7 +60,7 @@ public class OwnerSPJpaService implements OwnerService {
     }
 
     @Override
-    public List<Owner> findAllByLastNameLike(String lastName) {
-        return ownerRepository.findAllByLastNameLike(lastName);
+    public List<Owner> findAllByLastNameLikeIgnoreCase(String lastName) {
+        return ownerRepository.findAllByLastNameLikeIgnoreCase(lastName);
     }
 }
